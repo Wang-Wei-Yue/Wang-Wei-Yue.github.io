@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>期末大作业</title>
+    <link rel="stylesheet" type="text/css" href="content.css">
+</head>
+<body>
+    <!-- 页眉区header -->
+    <header id="header">
+        <br>
+        <center>王玮越的个人主页</center>
+    </header>
+    <!-- 页眉区header -->
+  
+      <br>
+  
+    <!-- 导航区nav -->
+      <nav id="naver">
+          <ul>
+              <li><a href="index.html">个人主页</a></li>
+              <li><a href="hobby.html">我的爱好</a></li>
+              <li><a href="traveling.html">旅游日志</a></li>
+              <li><a href="pet.html">我的爱宠</a></li>
+              <li class="selected"><a href="content.html">给我留言</a></li>
+          </ul>
+      </nav>
+    <!-- 导航区nav -->
+      
+      <br>
+
+    <!-- 内容区container，这里主要包含表单 -->
+      <div id="container">
+          
+          <p>感谢您看到这里！可以给我留个言嘛！</p>
+          <p>您的意见会对我很重要！</p>
+          <p>在此感谢每一位到访的朋友！</p>
+          <br>
+          <div id="containers">
+        <h1>反馈表单</h1>
+            <form action="http://starbuzzcoffee.com/processorder.php" method="post">
+            
+                <p>
+                    您的姓名：<input type="text" name="name" value=""><br>
+                </p>
+                <p>
+                    性别：<input type="radio" name="sex" value="男">男&nbsp;<input type="radio" name="sex" value="女" checked>女
+                </p>
+                <p>
+                    您的生日是：<input type="date" name="date">
+                </p>                
+                <p>您对我的主页的大致看法是：
+                    <select name="choive">
+                        <option value="very satisfied">十分满意</option>
+                        <option value="satisfied">满意</option>
+                        <option value="not bad">一般</option>
+                        <option value="unsatisfied">不满意</option>
+                        <option value="very unsatisfied">十分不满意</option>
+                    </select>
+		        </p>
+                <p>
+                    请给我提出改进意见：
+                    <textarea name="comments"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="提交反馈">
+                </p>
+            </form>
+        </div>
+
+        <br><br><br>
+        </div>
+        <!-- 内容区container，这里主要包含表单 -->
+
+        <!-- 页脚区footer -->
+        <footer>
+            &copy;编制于中南财经政法大学南湖校区 2022/6/24
+        </footer>
+        <!-- 页脚区footer -->
+</body>
+</html>

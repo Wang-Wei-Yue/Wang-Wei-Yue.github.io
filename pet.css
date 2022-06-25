@@ -1,0 +1,127 @@
+body { 
+    background-image: url(图片/background.jpg) ;
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;
+  }
+  
+
+#header {
+    font: bold 30px "楷体";
+    color: white;
+    width: 1000px;
+    height: 96px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #20392f;
+}
+
+#naver {
+    width: 1000px;
+    margin: 0 auto;
+    border-top: 4px solid #084d18;
+    border-bottom: 4px solid #084d18;
+    background-color: #4f7b5e;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #4f7b5e;
+    border-top: 4px solid #084d18;
+    border-bottom: 4px solid #084d18;
+}
+
+#container1{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+    color: #ffffff;
+    border-bottom: none;
+    font-weight: bold;
+
+}
+nav ul li.selected {
+    background-color: #3c5d4b;
+}
+
+
+footer {
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+  }
+  
+  p {
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    padding-right: 30px;
+    color: white;
+    font-family: '楷体';
+  }
+
+#title{
+    font-size: 26px;
+    font-family: '楷体';
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  a:link {
+    font-size: 16px;
+    font-family: '楷体';
+    padding-left: 30px;
+    padding-right: 30px;
+    color:            #ffffff;
+    text-decoration:  none;
+  }
+  a:visited {
+    font-size: 16px;
+    font-family: '楷体';
+    padding-left: 30px;
+    padding-right: 30px;
+    color:            #ffea00;
+    text-decoration:  none;
+  }
+  
+
+
+.box-img {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.zhong{
+    text-align: center;
+}
+
+td{
+    color: #ffffff;
+    text-align: center;
+}
+
+#table{
+    color: #ffffff;
+    margin: 0 auto;
+    border-spacing: 10px 10px;
+    border-color: #ffffff;
+    border-width: 10px;
+}

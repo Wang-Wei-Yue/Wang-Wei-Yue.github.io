@@ -1,0 +1,150 @@
+body { 
+    background-image: url(图片/background.jpg) ;
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;
+  }
+  
+
+#header {
+    font: bold 30px "楷体";
+    color: white;
+    width: 1000px;
+    height: 96px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #20392f;
+}
+
+#naver {
+    width: 1000px;
+    margin: 0 auto;
+    border-top: 4px solid #084d18;
+    border-bottom: 4px solid #084d18;
+    background-color: #4f7b5e;
+}
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+    color: #ffffff;
+    border-bottom: none;
+    font-weight: bold;
+
+}
+nav ul li.selected {
+    background-color: #3c5d4b;
+}
+footer {
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+  }
+  
+  p {
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    padding-right: 10px;
+    color: white;
+    font-family: '楷体';
+  }
+
+  h1 {
+    font-size: 26px;
+    font-family: '楷体';
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  h2 { 
+    font-size: 20px;
+    font-family: '楷体';
+    font-size: bold;
+    color: #ffea00;
+    text-align: center;
+  }
+
+a:link {
+    font-size: 16px;
+    font-family: '楷体';
+    padding-left: 30px;
+    padding-right: 30px;
+    color:            #ffffff;
+    text-decoration:  none;
+  }
+  a:visited {
+    font-size: 16px;
+    font-family: '楷体';
+    padding-left: 30px;
+    padding-right: 30px;
+    color:            #ffea00;
+    text-decoration:  none;
+  }
+
+#container-1{
+    font: 12px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    color: #333;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    border-top: 4px solid #084d18;
+    border-bottom: 4px solid #084d18;
+    background-color: #4f7b5e;
+}
+
+#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+#tableRow {
+	display: table-row;
+}
+
+#deyun {
+    display: table-cell;
+    background-color: #639173;
+    width: 20%;
+    padding: 1px;
+    vertical-align: top;
+}
+
+#zyl {
+  display: table-cell;
+  background:       #639173;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+#sidebar {
+  display: table-cell;
+  background:       #639173;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+  
+
+.zhong{
+    text-align: center;
+}
+
+footer {
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+  }
